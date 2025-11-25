@@ -1,0 +1,63 @@
+[project]
+name = "nyqstdocling"
+version = "0.1.0"
+description = "IBM Docling document processing setup with VLM support"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    # Core docling package with all features
+    "docling[tesserocr,vlm,rapidocr]",
+    # Additional OCR engines
+    "easyocr",
+    # Vision Language Model support
+    "torch",
+    "torchvision",
+    "transformers",
+    # Document processing utilities
+    "pillow",
+    "pypdf",
+    # Data handling
+    "pandas",
+    "numpy",
+    # API and web utilities
+    "requests",
+    "httpx",
+    # Output formatting
+    "markdown",
+    "beautifulsoup4",
+    "lxml",
+]
+
+[project.optional-dependencies]
+macos = [
+    "mlx-vlm",  # Apple Silicon hardware acceleration
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=24.0.0",
+    "ruff>=0.3.0",
+    "mypy>=1.8.0",
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py39", "py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
