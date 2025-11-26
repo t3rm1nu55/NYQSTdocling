@@ -24,6 +24,7 @@ env/
 # Processing outputs (large files)
 output/downloads/*.pdf
 processing_log.txt
+processing_full_run.log
 
 # OS
 .DS_Store
