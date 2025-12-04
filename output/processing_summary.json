@@ -1,0 +1,16 @@
+{
+  "system_specs": {
+    "timestamp": "2025-11-25T23:48:45.785268",
+    "platform": "Linux-4.4.0-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "architecture": "x86_64",
+    "python_version": "3.11.14",
+    "cpu_count": 16,
+    "cpu_count_logical": 16,
+    "total_memory_gb": 13.0,
+    "available_memory_gb": 7.85
+  },
+  "processing_date": "2025-11-25T23:48:45.798169",
+  "total_documents": 0,
+  "documents": []
+}
