@@ -22,9 +22,6 @@ dependencies = [
     # API and web utilities
     "requests",
     "httpx",
-    "aiohttp",
-    # System utilities
-    "psutil",
     # Output formatting
     "markdown",
     "beautifulsoup4",
