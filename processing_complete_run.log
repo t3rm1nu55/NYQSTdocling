@@ -1,0 +1,76 @@
+================================================================================
+SFTR EUR-LEX and ESMA Document Processing with Docling
+================================================================================
+
+📊 Collecting system specifications...
+   Platform: Linux-4.4.0-x86_64-with-glibc2.39
+   CPUs: 16 physical, 16 logical
+   Memory: 13.0 GB total, 7.88 GB available
+   CUDA Available: False
+
+📥 Downloading documents...
+  Downloading: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32015R2365
+    ✓ Saved to SFTR_Regulation_PDF.pdf (0.89 MB)
+  Downloading: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019R0356
+    ✓ Saved to SFTR_Delegated_Reg.pdf (0.48 MB)
+
+   ✓ Downloaded 2 file(s)
+
+================================================================================
+🔄 PROCESSING DOCUMENTS
+   Modes: QUICK, SLOW, ACCURATE, VLM
+================================================================================
+
+📄 Processing: SFTR_Regulation_PDF (0.89 MB)
+  ⚙️  QUICK mode... 
+📄 Processing: SFTR_Delegated_Reg (0.48 MB)
+  ⚙️  QUICK mode... 2025-12-04 03:43:12,011 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-04 03:43:12,012 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-04 03:43:12,279 - INFO - Going to convert document batch...
+2025-12-04 03:43:12,280 - INFO - Initializing pipeline for StandardPdfPipeline with options hash 70256a236a6856c82de2c96fe229a58e
+2025-12-04 03:43:12,285 - INFO - Going to convert document batch...
+2025-12-04 03:43:12,331 - INFO - Loading plugin 'docling_defaults'
+2025-12-04 03:43:12,334 - INFO - Registered picture descriptions: ['vlm', 'api']
+2025-12-04 03:43:12,374 - INFO - Loading plugin 'docling_defaults'
+2025-12-04 03:43:12,383 - INFO - Registered ocr engines: ['auto', 'easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-12-04 03:43:12,426 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:43:26,139 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:43:43,328 - INFO - Processing document SFTR_Delegated_Reg.pdf
+2025-12-04 03:43:43,328 - INFO - Initializing pipeline for StandardPdfPipeline with options hash 70256a236a6856c82de2c96fe229a58e
+2025-12-04 03:43:43,329 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:43:44,441 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:43:45,103 - INFO - Processing document SFTR_Regulation_PDF.pdf
+2025-12-04 03:44:34,875 - INFO - Finished converting document SFTR_Regulation_PDF.pdf in 82.87 sec.
+✓ 82.98s (Pages: 34, Tables: 1)
+  ⚙️  SLOW mode... 2025-12-04 03:44:34,994 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-04 03:44:34,998 - INFO - Going to convert document batch...
+2025-12-04 03:44:34,999 - INFO - Initializing pipeline for StandardPdfPipeline with options hash 6eed59fb26c4c4b53edf23da7734c814
+2025-12-04 03:44:35,563 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:44:36,064 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:44:36,438 - INFO - Processing document SFTR_Regulation_PDF.pdf
+2025-12-04 03:45:04,407 - INFO - Finished converting document SFTR_Delegated_Reg.pdf in 112.40 sec.
+✓ 112.43s (Pages: 21, Tables: 22)
+  ⚙️  SLOW mode... 2025-12-04 03:45:04,451 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-04 03:45:04,454 - INFO - Going to convert document batch...
+2025-12-04 03:45:04,455 - INFO - Initializing pipeline for StandardPdfPipeline with options hash 6eed59fb26c4c4b53edf23da7734c814
+2025-12-04 03:45:04,565 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:45:04,894 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:45:05,249 - INFO - Processing document SFTR_Delegated_Reg.pdf
+2025-12-04 03:45:21,928 - INFO - Finished converting document SFTR_Regulation_PDF.pdf in 46.94 sec.
+✓ 47.01s (Pages: 34, Tables: 1)
+  ⚙️  ACCURATE mode... 2025-12-04 03:45:22,024 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-04 03:45:22,033 - INFO - Going to convert document batch...
+2025-12-04 03:45:22,033 - INFO - Initializing pipeline for StandardPdfPipeline with options hash 6eed59fb26c4c4b53edf23da7734c814
+2025-12-04 03:45:22,142 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:45:22,669 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:45:23,107 - INFO - Processing document SFTR_Regulation_PDF.pdf
+2025-12-04 03:46:04,296 - INFO - Finished converting document SFTR_Regulation_PDF.pdf in 42.27 sec.
+✓ 42.36s (Pages: 34, Tables: 1)
+  ⚙️  VLM mode... 2025-12-04 03:46:04,406 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-04 03:46:04,413 - INFO - Going to convert document batch...
+2025-12-04 03:46:04,414 - INFO - Initializing pipeline for VlmPipeline with options hash 25bc6928c937101f4ff9c68b03338c77
+2025-12-04 03:46:04,418 - INFO - Accelerator device: 'cpu'
+2025-12-04 03:46:18,993 - INFO - Finished converting document SFTR_Delegated_Reg.pdf in 74.54 sec.
+✓ 74.57s (Pages: 21, Tables: 22)
+  ⚙️  ACCURATE mode... 2025-12-04 03:46:19,040 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-04 03:46:19,043 - INFO - Going to convert document batch...
