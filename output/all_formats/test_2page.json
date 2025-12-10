@@ -1,0 +1,1481 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.8.0",
+  "name": "test_2page",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 7057758820847657314,
+    "filename": "test_2page.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/42"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 41.556,
+            "t": 790.6880146484375,
+            "r": 83.44,
+            "b": 782.3080146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "22.3.2019",
+      "text": "22.3.2019"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 223.369,
+            "t": 790.6880146484375,
+            "r": 373.569,
+            "b": 782.3080146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "Official Journal of  the European Union",
+      "text": "Official Journal of  the European Union"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 527.808,
+            "t": 790.6880146484375,
+            "r": 555.26,
+            "b": 782.3080146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "L 81/1",
+      "text": "L 81/1"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 119.849,
+            "t": 789.7060146484375,
+            "r": 138.204,
+            "b": 782.2570146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "EN",
+      "text": "EN"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.352,
+            "t": 506.2990146484375,
+            "r": 179.766,
+            "b": 498.85001464843754,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "THE EUROPEAN COMMISSION,",
+      "text": "THE EUROPEAN COMMISSION,"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.351,
+            "t": 478.6500146484375,
+            "r": 341.522,
+            "b": 470.2700146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "Having regard to the Treaty on the Functioning of the European Union,",
+      "text": "Having regard to the Treaty on the Functioning of the European Union,"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.351,
+            "t": 450.02101464843753,
+            "r": 529.832,
+            "b": 420.5510146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            280
+          ]
+        }
+      ],
+      "orig": "Having regard to Regulation (EU) 2015/2365 of  the European Parliament and of  the Council of 25 November 2015 on transparency  of  securities  financing  transactions  and  of  reuse  and  amending  Regulation  (EU)  No  648/2012  ( 1 ),  and  in particular Article 4(9) thereof,",
+      "text": "Having regard to Regulation (EU) 2015/2365 of  the European Parliament and of  the Council of 25 November 2015 on transparency  of  securities  financing  transactions  and  of  reuse  and  amending  Regulation  (EU)  No  648/2012  ( 1 ),  and  in particular Article 4(9) thereof,"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.354,
+            "t": 400.30201464843753,
+            "r": 103.836,
+            "b": 391.92201464843754,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Whereas:",
+      "text": "Whereas:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.354,
+            "t": 371.6150146484375,
+            "r": 529.952,
+            "b": 310.5100146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            687
+          ]
+        }
+      ],
+      "orig": "(1) To increase efficiency and leverage similarities between the reporting of derivatives and the reporting of securities financing  transactions  ('SFTs'),  the  obligation  to  report  the  details  of  SFTs  to  trade  repositories  pursuant  to Article 4 of Regulation (EU) 2015/2365 should be aligned with the obligation to report derivative transactions to trade  repositories  pursuant  to  Article  9  of  Regulation  (EU)  No  648/2012  of  the  European  Parliament  and  of  the Council  ( 2 ).  The  reporting  requirements  that  specify  the  details  of  SFTs  should  therefore  be  similar to  the reporting requirements that specify the details of derivative contracts.",
+      "text": "To increase efficiency and leverage similarities between the reporting of derivatives and the reporting of securities financing  transactions  ('SFTs'),  the  obligation  to  report  the  details  of  SFTs  to  trade  repositories  pursuant  to Article 4 of Regulation (EU) 2015/2365 should be aligned with the obligation to report derivative transactions to trade  repositories  pursuant  to  Article  9  of  Regulation  (EU)  No  648/2012  of  the  European  Parliament  and  of  the Council  ( 2 ).  The  reporting  requirements  that  specify  the  details  of  SFTs  should  therefore  be  similar to  the reporting requirements that specify the details of derivative contracts.",
+      "enumerated": true,
+      "marker": "(1)"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.352,
+            "t": 290.2610146484376,
+            "r": 529.854,
+            "b": 186.86301464843746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1218
+          ]
+        }
+      ],
+      "orig": "(2) To  ensure  the  efficiency  and  usefulness  of  reported  information  on  SFTs,  the  specific  details  of  the  SFTs  to  be reported should  be  adapted  to  the  different  types  of  SFTs  identified  in  Regulation  (EU)  2015/2365.  With  regards to  reporting  margin  lending  transactions,  the  purpose  of  Regulation  (EU)  2015/2365  is  to  capture  transactions that serve the same purpose as repurchase transactions, buy-sell back transactions or securities lending transactions  and  therefore  pose  similar  risks  to  financial  stability  by  allowing  the  build-up  of  leverage,  procyclicality  and  interconnectedness  in  financial  markets  or  by  contributing  to  liquidity  and  maturity  transforma\u00ad tion.  While  margin  lending  therefore  includes  transactions  subject  to  margin  agreements  between  financial institutions  and  their  clients  where  financial  institutions  provide  prime  brokerage  services  to  their  clients,  it  does not  include  other  loans  such  as  loans  for  corporate  restructuring  purposes  which,  despite  the  possibility  of involving securities, do not contribute to the systemic risks addressed by Regulation (EU) 2015/2365.",
+      "text": "To  ensure  the  efficiency  and  usefulness  of  reported  information  on  SFTs,  the  specific  details  of  the  SFTs  to  be reported should  be  adapted  to  the  different  types  of  SFTs  identified  in  Regulation  (EU)  2015/2365.  With  regards to  reporting  margin  lending  transactions,  the  purpose  of  Regulation  (EU)  2015/2365  is  to  capture  transactions that serve the same purpose as repurchase transactions, buy-sell back transactions or securities lending transactions  and  therefore  pose  similar  risks  to  financial  stability  by  allowing  the  build-up  of  leverage,  procyclicality  and  interconnectedness  in  financial  markets  or  by  contributing  to  liquidity  and  maturity  transforma\u00ad tion.  While  margin  lending  therefore  includes  transactions  subject  to  margin  agreements  between  financial institutions  and  their  clients  where  financial  institutions  provide  prime  brokerage  services  to  their  clients,  it  does not  include  other  loans  such  as  loans  for  corporate  restructuring  purposes  which,  despite  the  possibility  of involving securities, do not contribute to the systemic risks addressed by Regulation (EU) 2015/2365.",
+      "enumerated": true,
+      "marker": "(2)"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.352,
+            "t": 166.61401464843755,
+            "r": 529.814,
+            "b": 137.14401464843752,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            283
+          ]
+        }
+      ],
+      "orig": "(3) It  is  important  that  the  details  of  any  SFT  cleared  by  a  central  counterparty  are  correctly  reported  and  can  be easily identified,  irrespective of whether  that SFT was cleared on the same date or on a later date than the date on which that SFT was concluded.",
+      "text": "It  is  important  that  the  details  of  any  SFT  cleared  by  a  central  counterparty  are  correctly  reported  and  can  be easily identified,  irrespective of whether  that SFT was cleared on the same date or on a later date than the date on which that SFT was concluded.",
+      "enumerated": true,
+      "marker": "(3)"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.352,
+            "t": 116.83801464843748,
+            "r": 529.858,
+            "b": 87.36901464843754,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            335
+          ]
+        }
+      ],
+      "orig": "(4) To ensure comprehensive reporting where specific details of  the collateral are not known on the day of  the trade, counterparties  should  update  information  on  the  collateral  as  soon  as  that  information  becomes  available  to  the counterparties, and no later  than the working day following the value date of that SFT.",
+      "text": "To ensure comprehensive reporting where specific details of  the collateral are not known on the day of  the trade, counterparties  should  update  information  on  the  collateral  as  soon  as  that  information  becomes  available  to  the counterparties, and no later  than the working day following the value date of that SFT.",
+      "enumerated": true,
+      "marker": "(4)"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.351,
+            "t": 72.74701464843747,
+            "r": 171.491,
+            "b": 64.92201464843754,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "( 1 ) OJ L 337, 23.12.2015, p. 1.",
+      "text": "( 1 ) OJ L 337, 23.12.2015, p. 1."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.351,
+            "t": 64.01701464843745,
+            "r": 529.576,
+            "b": 46.78101464843746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "( 2 ) Regulation (EU) No 648/2012 of the European Parliament and of the Council of 4 July 2012 on OTC derivatives, central counterparties and trade repositories (OJ L 201, 27.7.2012, p. 1).",
+      "text": "( 2 ) Regulation (EU) No 648/2012 of the European Parliament and of the Council of 4 July 2012 on OTC derivatives, central counterparties and trade repositories (OJ L 201, 27.7.2012, p. 1)."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 294.123,
+            "t": 745.8420146484375,
+            "r": 303.693,
+            "b": 734.6680146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "II",
+      "text": "II"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 261.468,
+            "t": 716.9870146484375,
+            "r": 335.764,
+            "b": 708.6070146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "(Non-legislative acts)",
+      "text": "(Non-legislative acts)"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 244.8,
+            "t": 666.7700146484375,
+            "r": 353.91,
+            "b": 651.8720146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "REGULATIONS",
+      "text": "REGULATIONS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 176.088,
+            "t": 611.1070146484375,
+            "r": 421.087,
+            "b": 585.5200146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "COMMISSION DELEGATED REGULATION (EU) 2019/356 of 13 December 2018",
+      "text": "COMMISSION DELEGATED REGULATION (EU) 2019/356 of 13 December 2018",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.921,
+            "t": 577.2050146484376,
+            "r": 504.292,
+            "b": 547.4800146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            258
+          ]
+        }
+      ],
+      "orig": "supplementing  Regulation  (EU)  2015/2365  of  the  European  Parliament  and  of  the  Council  with regard  to  regulatory  technical  standards  specifying  the  details  of  securities  financing  transactions (SFTs) to be reported to trade repositories",
+      "text": "supplementing  Regulation  (EU)  2015/2365  of  the  European  Parliament  and  of  the  Council  with regard  to  regulatory  technical  standards  specifying  the  details  of  securities  financing  transactions (SFTs) to be reported to trade repositories"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 249.732,
+            "t": 535.0420146484375,
+            "r": 347.243,
+            "b": 527.3660146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "(Text with EEA relevance)",
+      "text": "(Text with EEA relevance)"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 41.559,
+            "t": 790.6880146484375,
+            "r": 69.068,
+            "b": 782.3080146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "L 81/2",
+      "text": "L 81/2"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 119.849,
+            "t": 789.7060146484375,
+            "r": 138.204,
+            "b": 782.2570146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "EN",
+      "text": "EN"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 223.373,
+            "t": 790.6880146484375,
+            "r": 373.573,
+            "b": 782.3080146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "Official Journal of  the European Union",
+      "text": "Official Journal of  the European Union"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 513.354,
+            "t": 790.6880146484375,
+            "r": 555.239,
+            "b": 782.3080146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "22.3.2019",
+      "text": "22.3.2019"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.351,
+            "t": 765.0630146484375,
+            "r": 529.933,
+            "b": 735.5940146484376,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            338
+          ]
+        }
+      ],
+      "orig": "(5) To provide more useful information to the authorities that access the details of SFTs in trade repositories, counter\u00ad parties  should  report  to  the  trade  repositories  the  International  Securities  Identification  Number  ('ISIN')  of  any collateral basket they use to provide collateral to an SFT, if that basket has an ISIN.",
+      "text": "To provide more useful information to the authorities that access the details of SFTs in trade repositories, counter\u00ad parties  should  report  to  the  trade  repositories  the  International  Securities  Identification  Number  ('ISIN')  of  any collateral basket they use to provide collateral to an SFT, if that basket has an ISIN.",
+      "enumerated": true,
+      "marker": "(5)"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.351,
+            "t": 720.2190146484376,
+            "r": 529.834,
+            "b": 680.1480146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            422
+          ]
+        }
+      ],
+      "orig": "(6) Where  counterparties  provide  collateral  on  a  net  exposure  basis,  resulting  from  the  offsetting  of  a  number  of SFTs between two counterparties, a specific allocation of collateral to an individual SFT is often not possible, and hence  the  collateral  allocation  may  not  be  known.  In  those  situations,  counterparties  should  be  able  to  report collateral independently of the underlying loan.",
+      "text": "Where  counterparties  provide  collateral  on  a  net  exposure  basis,  resulting  from  the  offsetting  of  a  number  of SFTs between two counterparties, a specific allocation of collateral to an individual SFT is often not possible, and hence  the  collateral  allocation  may  not  be  known.  In  those  situations,  counterparties  should  be  able  to  report collateral independently of the underlying loan.",
+      "enumerated": true,
+      "marker": "(6)"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.351,
+            "t": 664.7750146484375,
+            "r": 529.834,
+            "b": 635.2470146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            313
+          ]
+        }
+      ],
+      "orig": "(7) This  Regulation  is  based  on  the  draft  regulatory  technical  standards  submitted  by  the  European  Securities  and Markets  Authority  ('ESMA')  to  the  Commission  pursuant  to  the  procedure  in  Article  10  of  Regulation  (EU) No 1095/2010 of the European Parliament and of the Council ( 3 ).",
+      "text": "This  Regulation  is  based  on  the  draft  regulatory  technical  standards  submitted  by  the  European  Securities  and Markets  Authority  ('ESMA')  to  the  Commission  pursuant  to  the  procedure  in  Article  10  of  Regulation  (EU) No 1095/2010 of the European Parliament and of the Council ( 3 ).",
+      "enumerated": true,
+      "marker": "(7)"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.354,
+            "t": 619.8730146484376,
+            "r": 529.894,
+            "b": 590.4030146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            327
+          ]
+        }
+      ],
+      "orig": "(8) ESMA  has  conducted  open  public  consultations  on  these  draft  regulatory  technical  standards,  analysed  the potential  related  costs  and  benefits  and  requested  the  opinion  of  the  ESMA  Securities  and  Markets  Stakeholder Group established in accordance with Article 37 of Regulation (EU) No 1095/2010,",
+      "text": "ESMA  has  conducted  open  public  consultations  on  these  draft  regulatory  technical  standards,  analysed  the potential  related  costs  and  benefits  and  requested  the  opinion  of  the  ESMA  Securities  and  Markets  Stakeholder Group established in accordance with Article 37 of Regulation (EU) No 1095/2010,",
+      "enumerated": true,
+      "marker": "(8)"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.351,
+            "t": 566.3360146484375,
+            "r": 195.764,
+            "b": 558.8870146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "HAS ADOPTED THIS REGULATION:",
+      "text": "HAS ADOPTED THIS REGULATION:"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 282.161,
+            "t": 534.7760146484375,
+            "r": 315.045,
+            "b": 526.3960146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Article 1",
+      "text": "Article 1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 235.617,
+            "t": 511.15801464843753,
+            "r": 361.586,
+            "b": 502.5220146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Details of SFTs to be reported",
+      "text": "Details of SFTs to be reported",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.353,
+            "t": 487.2110146484375,
+            "r": 529.826,
+            "b": 468.2870146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "1. A  report  made  pursuant  to  Article  4(1)  of  Regulation  (EU)  2015/2365  shall  include  the  complete  and  accurate details set out in Tables 1, 2, 3 and 4 of the Annex that pertain to the SFT concerned.",
+      "text": "A  report  made  pursuant  to  Article  4(1)  of  Regulation  (EU)  2015/2365  shall  include  the  complete  and  accurate details set out in Tables 1, 2, 3 and 4 of the Annex that pertain to the SFT concerned.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.353,
+            "t": 452.9120146484375,
+            "r": 529.831,
+            "b": 423.3870146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            374
+          ]
+        }
+      ],
+      "orig": "2. When  reporting  the  conclusion  of  an  SFT,  a  counterparty  shall  specify  in  its  report  the  action  type  'New'  in Field  98  in  Table  2  of  the  Annex  to  this  Regulation.  Any  subsequent  reports  of  the  details  of  that  SFT  shall  specify  in Field 98 in Table 2 of the Annex to this Regulation the relevant action type that relates to that SFT.",
+      "text": "When  reporting  the  conclusion  of  an  SFT,  a  counterparty  shall  specify  in  its  report  the  action  type  'New'  in Field  98  in  Table  2  of  the  Annex  to  this  Regulation.  Any  subsequent  reports  of  the  details  of  that  SFT  shall  specify  in Field 98 in Table 2 of the Annex to this Regulation the relevant action type that relates to that SFT.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 282.161,
+            "t": 394.8030146484375,
+            "r": 315.045,
+            "b": 386.4230146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Article 2",
+      "text": "Article 2",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 219.063,
+            "t": 371.2400146484375,
+            "r": 378.114,
+            "b": 362.6040146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "SFTs cleared by central counterparties",
+      "text": "SFTs cleared by central counterparties",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.353,
+            "t": 347.2380146484375,
+            "r": 529.836,
+            "b": 307.22401464843756,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            427
+          ]
+        }
+      ],
+      "orig": "1. An  SFT  whose  details  have  already  been  reported  pursuant  to  Article  4(1)  of  Regulation  (EU)  2015/2365  and which  is  subsequently  cleared  by  a  central  counterparty,  shall  be  reported,  once  cleared,  as  terminated  by  specifying  in Field  98  of  Table  2  of  the  Annex  the  action  type  'Termination/Early  Termination',  and  the  new  SFTs  resulting  from  the clearing shall be reported.",
+      "text": "An  SFT  whose  details  have  already  been  reported  pursuant  to  Article  4(1)  of  Regulation  (EU)  2015/2365  and which  is  subsequently  cleared  by  a  central  counterparty,  shall  be  reported,  once  cleared,  as  terminated  by  specifying  in Field  98  of  Table  2  of  the  Annex  the  action  type  'Termination/Early  Termination',  and  the  new  SFTs  resulting  from  the clearing shall be reported.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.353,
+            "t": 291.79201464843754,
+            "r": 529.83,
+            "b": 272.86801464843757,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            185
+          ]
+        }
+      ],
+      "orig": "2. An  SFT  that  is  concluded  on  a  trading  venue  and  that  is  cleared  by  a  central  counterparty  on  the  same  day  shall only be reported after that SFT has been cleared.",
+      "text": "An  SFT  that  is  concluded  on  a  trading  venue  and  that  is  cleared  by  a  central  counterparty  on  the  same  day  shall only be reported after that SFT has been cleared.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.353,
+            "t": 257.49301464843757,
+            "r": 529.865,
+            "b": 238.56901464843747,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            254
+          ]
+        }
+      ],
+      "orig": "3. A counterparty  shall,  for  the  margin  posted  or  received  for  a  cleared  SFT,  report  the  details  set  out  in  Table  3  of the Annex to this Regulation and specify the relevant action type laid down in Field 20 of that Table of the Annex.",
+      "text": "A counterparty  shall,  for  the  margin  posted  or  received  for  a  cleared  SFT,  report  the  details  set  out  in  Table  3  of the Annex to this Regulation and specify the relevant action type laid down in Field 20 of that Table of the Annex.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 282.161,
+            "t": 209.9280146484375,
+            "r": 315.045,
+            "b": 201.54801464843752,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Article 3",
+      "text": "Article 3",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 257.16,
+            "t": 186.36701464843748,
+            "r": 340.061,
+            "b": 177.7310146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Collateral reporting",
+      "text": "Collateral reporting",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.353,
+            "t": 162.42001464843747,
+            "r": 529.801,
+            "b": 143.43901464843748,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "1. Counterparties  to  a  securities  or  commodities  lending  or  a  securities  or  commodities  borrowing  transaction  that agree that no collateral shall be provided, shall specify this in Field 72 of Table 2 of the Annex.",
+      "text": "Counterparties  to  a  securities  or  commodities  lending  or  a  securities  or  commodities  borrowing  transaction  that agree that no collateral shall be provided, shall specify this in Field 72 of Table 2 of the Annex.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.353,
+            "t": 128.06401464843748,
+            "r": 529.804,
+            "b": 87.99301464843757,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            472
+          ]
+        }
+      ],
+      "orig": "2. Where  the  collateral  of  an  SFT  is  linked  to  an  individual  loan  and  the  details  of  the  collateral  are  known  by  the counterparty  by  the  reporting  deadline,  the  counterparty  shall  specify  the  complete  and  accurate  details  of  all  of  the individual collateral components of  that SFT in Fields 75 to 94 of Table 2 of  the Annex when reporting this SFT for  the first  time with the action type 'New' in Field 98 of Table 2 of the Annex.",
+      "text": "Where  the  collateral  of  an  SFT  is  linked  to  an  individual  loan  and  the  details  of  the  collateral  are  known  by  the counterparty  by  the  reporting  deadline,  the  counterparty  shall  specify  the  complete  and  accurate  details  of  all  of  the individual collateral components of  that SFT in Fields 75 to 94 of Table 2 of  the Annex when reporting this SFT for  the first  time with the action type 'New' in Field 98 of Table 2 of the Annex.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.351,
+            "t": 73.42801464843751,
+            "r": 529.603,
+            "b": 46.78101464843746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            318
+          ]
+        }
+      ],
+      "orig": "( 3 ) Regulation  (EU)  No  1095/2010  of  the  European  Parliament  and  of  the  Council  of  24  November  2010  establishing  a  European Supervisory Authority (European Securities and Markets Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/77/EC (OJ L 331, 15.12.2010, p. 84).",
+      "text": "( 3 ) Regulation  (EU)  No  1095/2010  of  the  European  Parliament  and  of  the  Council  of  24  November  2010  establishing  a  European Supervisory Authority (European Securities and Markets Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/77/EC (OJ L 331, 15.12.2010, p. 84)."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 110.86088562011719,
+            "t": 792.9444198608398,
+            "r": 138.01547241210938,
+            "b": 781.3988494873047,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      },
+      "page_no": 2
+    }
+  }
+}
