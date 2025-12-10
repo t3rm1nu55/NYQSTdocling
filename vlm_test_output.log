@@ -1,0 +1,63 @@
+Creating small 2-page test PDF...
+Created test PDF with 2 pages
+
+================================================================================
+Testing VLM Mode on Small Document
+================================================================================
+
+================================================================================
+Testing IBM Granite Docling VLM Mode
+================================================================================
+
+📄 Processing: test_2page.pdf
+   Size: 355.75 KB
+
+⚙️  Initializing VLM pipeline with IBM Granite model...
+   ✓ Pipeline initialized in 0.00s
+
+🔄 Processing document with VLM...
+2025-12-10 07:13:18,269 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-10 07:13:18,480 - INFO - Going to convert document batch...
+2025-12-10 07:13:18,481 - INFO - Initializing pipeline for VlmPipeline with options hash 25bc6928c937101f4ff9c68b03338c77
+2025-12-10 07:13:18,541 - INFO - Loading plugin 'docling_defaults'
+2025-12-10 07:13:18,544 - INFO - Registered picture descriptions: ['vlm', 'api']
+2025-12-10 07:13:18,552 - INFO - Accelerator device: 'cpu'
+2025-12-10 07:13:50,984 - INFO - Processing document test_2page.pdf
+2025-12-10 07:18:37,248 - INFO - Finished converting document test_2page.pdf in 318.98 sec.
+
+================================================================================
+✅ VLM Processing Complete!
+================================================================================
+
+⏱️  Performance:
+   Pipeline initialization: 0.00s
+   Document processing: 319.03s
+   Total time: 319.04s
+
+📊 Output:
+   Size: 8.69 KB
+   Saved to: output/vlm_test/test_2page_vlm.md
+
+📝 Output Preview (first 500 chars):
+--------------------------------------------------------------------------------
+II
+
+(Non-legislative acts)
+
+## REGULATIONS
+
+## COMMISSION DELEGATED REGULATION (EU) 2019/56
+
+## of 13 December 2018
+
+supplementing Regulation (EU) 2015/2365 of the European Parliament and of the Council with regard to regulatory technical standards specifying the details of securitie financing transactions (SFTs) to be reported to trade repositories
+
+(Text with EEA relevance)
+
+THE EUROPEAN COMMISSION
+
+Having regard to the Treaty on the Functioning of the European Union,
+
+Having regard to Regulat
+...
+--------------------------------------------------------------------------------
